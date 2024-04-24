@@ -1,0 +1,168 @@
+ [
+  {
+    "type": "profession",
+    "id": "dual_dimensionalist_biomancer",
+    "name": "Dimensionalist Biomancer Mage",
+    "description": "You are an expert in dimensionalism and biomancy, with its most common example being teleportation magic, that is the reason why you could survive while your colleagues could not.  Your only hope is that your highly specialized skills will continue keeping you alive.",
+    "points": 6,
+    "spells": [
+      { "id": "bio_fleshpouch", "level": 6 },
+	  { "id": "biomancer_eat_tons_of_food", "level": 1 },
+	  { "id": "biomancer_coagulant_weave", "level": 1 },
+	  { "id": "biomancer_lashing_tentacles", "level": 1 },
+	  { "id": "bio_acidicspray", "level": 3 },
+      { "id": "dimension_door", "level": 2 },
+      { "id": "translocate_self", "level": 5 },
+      { "id": "magus_teleport_mark", "level": 6 },
+      { "id": "magus_word_of_recall", "level": 4 },
+      { "id": "magus_escape", "level": 3 }
+    ],
+    "skills": [ { "level": 5, "name": "spellcraft" } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "copper_circlet" },
+          { "item": "cloak" },
+          { "item": "dress_shoes" },
+          { "item": "socks_wool" },
+          { "item": "mbag" },
+          { "item": "wizard_hat" },
+          { "item": "gloves_liner" },
+          { "item": "gloves_light" },
+          { "item": "dress_shirt" },
+          { "item": "knit_scarf" },
+          { "item": "pocketwatch" },
+          { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_briefs" }, { "item": "pants" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" }, { "item": "skirt" } ] }
+    },
+    "traits": [ "MAGUS", "BIOMANCER" ]
+  },
+    {
+    "type": "profession",
+    "id": "dual_icemage_earthshaper",
+    "name": "Ice-earth Mage",
+    "description": "You are an expert in ice magic and earth magic.",
+    "points": 6,
+    "spells": [
+      { "id": "chilling_touch", "level": 6 },
+      { "id": "hoary_blast", "level": 2 },
+      { "id": "recover_stamina", "level": 5 },
+      { "id": "ice_shield", "level": 6 },
+      { "id": "earthshaper_fortitude_of_stone", "level": 4 },
+      { "id": "kelvinist_summon_freezer_spell", "level": 3 },
+      { "id": "eshaper_shardspray", "level": 6 }
+    ],
+    "skills": [ { "level": 5, "name": "spellcraft" } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "copper_circlet" },
+          { "item": "cloak" },
+          { "item": "dress_shoes" },
+          { "item": "socks_wool" },
+          { "item": "mbag" },
+          { "item": "wizard_hat" },
+          { "item": "gloves_liner" },
+          { "item": "gloves_light" },
+          { "item": "dress_shirt" },
+          { "item": "knit_scarf" },
+          { "item": "pocketwatch" },
+          { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_briefs" }, { "item": "pants" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" }, { "item": "skirt" } ] }
+    },
+    "traits": [ "KELVINIST", "EARTHSHAPER" ]
+  },
+  
+      {
+    "type": "profession",
+    "id": "dual_techno_druid_cat_summoner",
+    "name": "Crazy Cat Person Techno-Druid",
+    "description": "You are an druid that mixes druidic magic to summon cats and combines it with more modern technomancy magic.",
+    "points": 7,
+    "spells": [
+      { "id": "druid_beguile_savage_beast", "level": 6 },
+      { "id": "druid_disinfectant", "level": 2 },
+	  { "id": "recover_bionic_power", "level": 2 },
+      { "id": "invisibility", "level": 5 },
+      { "id": "summon_cats", "level": 7 },
+	  { "id": "laze", "level": 4 },
+      { "id": "mirror_image", "level": 4 },
+      { "id": "holographic_transposition", "level": 3 },
+      { "id": "recover_sleepiness", "level": 6 }
+    ],
+	"CBMs": [ "bio_faraday", "bio_ethanol", "bio_power_storage_mkII" ],
+    "skills": [ { "level": 5, "name": "spellcraft" } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "copper_circlet" },
+          { "item": "cloak_fur" },
+          { "item": "dress_shoes" },
+          { "item": "socks_wool" },
+		  { "item": "mbag" },
+		  { "item": "glass_shard", "count": 10 },
+          { "item": "wizard_hat" },
+          { "item": "gloves_liner" },
+          { "item": "gloves_light" },
+          { "item": "dress_shirt" },
+          { "item": "knit_scarf" },
+          { "item": "water_clean", "charges": 3, "container-item": "waterskin" },
+          { "item": "magi_staff_minor" }
+        ]
+      },
+      "male": [ "chestwrap_fur", "loincloth_fur" ],
+      "female": [ "bikini_top_fur", "hot_pants_fur" ]
+    },
+    "traits": [ "TECHNOMANCER", "DRUID" ]
+  },
+ {
+    "type": "profession",
+    "id": "earth_attuned_druid",
+    "name": "Earth Attuned Druid",
+    "description": "For a long time you lived in the wild learning earth magic along with your druidic magic, now that the woods are collapsing you finally return to civilization.",
+    "points": 6,
+    "spells": [
+      { "id": "druid_water_walking", "level": 5 },
+      { "id": "druid_natures_commune", "level": 3 },
+	  { "id": "druid_rootstrike", "level": 3 },
+	  { "id": "druid_woodshaft", "level": 1 },
+	  { "id": "earthshaper_boulder", "level": 4 },
+	  { "id": "eshaper_shardstorm", "level": 1 },
+	  { "id": "eshaper_shardspray", "level": 1 },
+	  { "id": "eshaper_melee_damage", "level": 1 },
+      { "id": "seismic_stomp", "level": 6 },
+      { "id": "purify_seed", "level": 2 },
+	  { "id": "druid_bearmantle", "level": 2 },
+      { "id": "move_earth", "level": 3 }
+    ],
+    "skills": [ { "level": 1, "name": "survival" }, { "level": 3, "name": "spellcraft" }, { "level": 1, "name": "cooking" } ],
+    "proficiencies": [ "prof_forage_cooking" ],
+    "traits": [ "ANIMALEMPATH", "TABLEMANNERS", "DRUID", "EARTHSHAPER" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "footrags_fur" },
+		  { "item": "meat_cooked" },
+		  { "item": "grapes" },
+          { "item": "gloves_wraps_fur" },
+          { "item": "hat_fur" },
+          { "item": "cloak_fur" },
+          { "item": "scarf_fur_loose" },
+          { "item": "wolfshead_cufflinks", "ammo-item": "crystallized_mana", "charges": 1 },
+          { "item": "leather_pouch", "contents-group": "pouch_wild_druid" },
+          { "item": "primitive_knife", "container-item": "sheath" },
+          { "item": "water_clean", "charges": 3, "container-item": "waterskin" }
+        ]
+      },
+      "male": [ "chestwrap_fur", "loincloth_fur" ],
+      "female": [ "bikini_top_fur", "hot_pants_fur" ]
+    }
+  }
+  
+]

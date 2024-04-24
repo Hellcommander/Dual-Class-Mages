@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "dual_class_mages_for_magiclysm",
+    "name": "Dual Class Mages for Magiclysm",
+    "authors": [ "Arendeth" ],
+    "maintainers": [ "Arendeth" ],
+    "description": "Adds dual magic class mage profession(s) for use with magiclysm",
+    "category": "magical",
+    "dependencies": [ "dda", "magiclysm" ]
+  }
+]
