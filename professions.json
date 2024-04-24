@@ -32,6 +32,7 @@
           { "item": "dress_shirt" },
           { "item": "knit_scarf" },
           { "item": "pocketwatch" },
+		  { "item": "spearsling" },
           { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] }
         ]
       },
@@ -70,6 +71,7 @@
           { "item": "dress_shirt" },
           { "item": "knit_scarf" },
           { "item": "pocketwatch" },
+		  { "item": "spearsling" },
           { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] }
         ]
       },
@@ -112,8 +114,9 @@
           { "item": "gloves_light" },
           { "item": "dress_shirt" },
           { "item": "knit_scarf" },
+		  { "item": "mbelt_pockets_lesser" },
           { "item": "water_clean", "charges": 3, "container-item": "waterskin" },
-          { "item": "magi_staff_minor" }
+          { "item": "rune_technomancer_weapon" }
         ]
       },
       "male": [ "chestwrap_fur", "loincloth_fur" ],
@@ -121,7 +124,129 @@
     },
     "traits": [ "TECHNOMANCER", "DRUID" ]
   },
+   {
+    "type": "profession",
+    "id": "arendeth_earthshaper_mixed_firemage",
+    "name": "Volcanic Mage",
+    "description": "You are an expert in fire magic and earth magic.",
+    "points": 6,
+    "spells": [
+      { "id": "point_flare", "level": 4 },
+	  { "id": "earthshaper_stoneskin", "level": 4 },
+      { "id": "reactive_armor", "level": 3 },
+	  { "id": "kelvinist_summon_flamesword", "level": 3 },
+	  { "id": "kelvinist_flamebreath", "level": 2 },
+	  { "id": "kelvinist_anti_heat", "level": 3 }
+    ],
+    "skills": [ { "level": 5, "name": "spellcraft" } ],
+    "traits": [ "EARTHSHAPER", "KELVINIST" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "footrags_fur" },
+		  { "item": "mbag" },
+		  { "item": "grapes" },
+          { "item": "gloves_wraps_fur" },
+		  { "item": "spearsling" },
+          { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] },
+          { "item": "wizard_hat" },
+          { "item": "cloak_fur" },
+          { "item": "scarf_fur_loose" },
+          { "item": "mbelt_pockets_lesser" },
+          { "item": "leather_pouch", "contents-group": "pouch_wild_druid" },
+          { "item": "water_clean", "charges": 3, "container-item": "waterskin" }
+        ]
+      },
+      "male": [ "chestwrap_fur", "loincloth_fur" ],
+      "female": [ "bikini_top_fur", "hot_pants_fur" ]
+    }
+  },
  {
+    "type": "profession",
+    "id": "animist_mixed_druid",
+    "name": "Shaman Druid",
+    "description": "For a long time you lived in the wild with your dryad learning animist magic to combine with your druidic magic, now that the woods are collapsing you finally return to civilization.",
+    "points": 6,
+    "spells": [
+      { "id": "druid_water_walking", "level": 4 },
+	  { "id": "create_rune_animist", "level": 4 },
+      { "id": "wrathful_spirits", "level": 3 },
+	  { "id": "life_detonation", "level": 3 },
+	  { "id": "druid_natures_commune", "level": 2 },
+	  { "id": "animist_spirit_walking", "level": 1 },
+	  { "id": "druid_bramble_spear", "level": 3 },
+	  { "id": "dominate", "level": 4 },
+      { "id": "druid_beguile_savage_beast", "level": 6 },
+	  { "id": "druid_summon_tanglevine", "level": 4 },
+      { "id": "druid_summon_brambles", "level": 3 }
+    ],
+    "skills": [ { "level": 5, "name": "spellcraft" } ],
+	"pets": [ { "name": "mon_dryad", "amount": 1 } ],
+    "traits": [ "DRUID", "ANIMIST" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "footrags_fur" },
+		  { "item": "mbag" },
+		  { "item": "grapes" },
+          { "item": "gloves_wraps_fur" },
+		  { "item": "sheath" },
+		  { "item": "rope_30" },
+		  { "item": "rune_animist", "count": 6 },
+		  { "item": "rune_animist_weapon", "custom-flags": [ "auto_wield" ] },
+          { "item": "wizard_hat" },
+          { "item": "cloak_fur" },
+          { "item": "scarf_fur_loose" },
+          { "item": "mbelt_pockets_lesser" },
+          { "item": "leather_pouch", "contents-group": "pouch_wild_druid" },
+          { "item": "water_clean", "charges": 3, "container-item": "waterskin" }
+        ]
+      },
+      "male": [ "chestwrap_fur", "loincloth_fur" ],
+      "female": [ "bikini_top_fur", "hot_pants_fur" ]
+    }
+  },
+     {
+    "type": "profession",
+    "id": "weather_attuned_druid",
+    "name": "Weather Attuned Druid",
+    "description": "For a long time you lived in the wild learning weather related stormshaper magic along with your druidic magic, now that the woods are collapsing you finally return to civilization.",
+    "points": 6,
+    "spells": [
+      { "id": "druid_water_walking", "level": 5 },
+      { "id": "druid_natures_commune", "level": 3 },
+	  { "id": "explosive_decompression", "level": 2 },
+	  { "id": "druid_rootstrike", "level": 3 },
+	  { "id": "stormshaper_wall_of_fog", "level": 4 },
+      { "id": "windstrike", "level": 6 },
+      { "id": "purify_seed", "level": 2 },
+	  { "id": "druid_bearmantle", "level": 2 },
+      { "id": "storm_hammer", "level": 3 }
+    ],
+    "skills": [ { "level": 1, "name": "survival" }, { "level": 4, "name": "spellcraft" } ],
+    "traits": [ "DRUID", "EARTHSHAPER" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "footrags_fur" },
+		  { "item": "leather_pouch", "contents-group": "pouch_wild_druid" },
+		  { "item": "mbag" },
+		  { "item": "grapes" },
+          { "item": "gloves_wraps_fur" },
+          { "item": "hat_fur" },
+          { "item": "cloak_fur" },
+          { "item": "scarf_fur_loose" },
+		  { "item": "spearsling" },
+          { "item": "wolfshead_cufflinks", "ammo-item": "crystallized_mana", "charges": 1 },
+          { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] },
+          { "item": "water_clean", "charges": 3, "container-item": "waterskin" }
+        ]
+      },
+      "male": [ "chestwrap_fur", "loincloth_fur" ],
+      "female": [ "bikini_top_fur", "hot_pants_fur" ]
+    }
+  },
+   {
     "type": "profession",
     "id": "earth_attuned_druid",
     "name": "Earth Attuned Druid",
@@ -148,15 +273,17 @@
       "both": {
         "entries": [
           { "item": "footrags_fur" },
+		  { "item": "leather_pouch", "contents-group": "pouch_wild_druid" },
+		  { "item": "mbag" },
 		  { "item": "meat_cooked" },
 		  { "item": "grapes" },
           { "item": "gloves_wraps_fur" },
           { "item": "hat_fur" },
           { "item": "cloak_fur" },
           { "item": "scarf_fur_loose" },
+		  { "item": "spearsling" },
           { "item": "wolfshead_cufflinks", "ammo-item": "crystallized_mana", "charges": 1 },
-          { "item": "leather_pouch", "contents-group": "pouch_wild_druid" },
-          { "item": "primitive_knife", "container-item": "sheath" },
+          { "item": "rune_earthshaper_weapon" },
           { "item": "water_clean", "charges": 3, "container-item": "waterskin" }
         ]
       },
