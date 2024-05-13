@@ -9,7 +9,7 @@
       { "id": "bio_fleshpouch", "level": 6 },
 	  { "id": "biomancer_eat_tons_of_food", "level": 1 },
 	  { "id": "biomancer_coagulant_weave", "level": 1 },
-	  { "id": "biomancer_lashing_tentacles", "level": 1 },
+	  { "id": "biomancer_giant_growth", "level": 1 },
 	  { "id": "bio_acidicspray", "level": 3 },
       { "id": "dimension_door", "level": 2 },
       { "id": "translocate_self", "level": 5 },
@@ -131,10 +131,11 @@
     "description": "You are an expert in fire magic and earth magic.",
     "points": 6,
     "spells": [
-      { "id": "point_flare", "level": 4 },
+	  { "id": "burning_hands", "level": 3 },
+      { "id": "earthshaper_pillar", "level": 4 },
 	  { "id": "earthshaper_stoneskin", "level": 4 },
       { "id": "reactive_armor", "level": 3 },
-	  { "id": "kelvinist_summon_flamesword", "level": 3 },
+	  { "id": "kelvinist_summon_flamesword", "level": 2 },
 	  { "id": "kelvinist_flamebreath", "level": 2 },
 	  { "id": "kelvinist_anti_heat", "level": 3 }
     ],
