@@ -133,8 +133,8 @@
     "spells": [
 	  { "id": "burning_hands", "level": 3 },
       { "id": "earthshaper_pillar", "level": 4 },
-	  { "id": "earthshaper_stoneskin", "level": 4 },
-      { "id": "reactive_armor", "level": 3 },
+	  { "id": "earthshaper_harden_earth", "level": 1 },
+	  { "id": "summon_eshaper_golem", "level": 4 },
 	  { "id": "kelvinist_summon_flamesword", "level": 2 },
 	  { "id": "kelvinist_flamebreath", "level": 2 },
 	  { "id": "kelvinist_anti_heat", "level": 3 }
@@ -146,7 +146,8 @@
         "entries": [
           { "item": "footrags_fur" },
 		  { "item": "mbag" },
-		  { "item": "grapes" },
+		  { "item": "jerky" },
+		  { "item": "honeycomb" },
           { "item": "gloves_wraps_fur" },
 		  { "item": "spearsling" },
           { "item": "magi_staff_minor", "custom-flags": [ "auto_wield" ] },
